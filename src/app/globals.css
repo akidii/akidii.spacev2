@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Source+Code+Pro:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary: #0A192F;
+  --secondary: #1E2A3A;
+  --accent: #64FFDA;
+  --text-primary: #CCD6F6;
+  --text-secondary: #8892B0;
+  --background: #0A192F;
+  --foreground: #CCD6F6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: 'Source Code Pro', monospace;
+  --font-mono: 'Roboto Mono', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary);
+  color: var(--text-primary);
+  font-family: 'Source Code Pro', monospace;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.glow {
+  box-shadow: 0 0 20px var(--accent);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px var(--accent);
+}
+
+.particle-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
