@@ -208,9 +208,9 @@ export default function LearningSummary() {
           transition={{ delay: 1.4, duration: 0.8 }}
           className="mt-12 text-center"
         >
-          <p className="text-[#64FFDA] font-mono text-lg">
-            学而时习之，不亦说乎 - 持续学习，持续成长
-          </p>
+         <p className="text-[#64FFDA] font-mono text-lg">
+    &quot;学而时习之，不亦说乎&quot; - 持续学习，持续成长
+  </p>
         </motion.div>
       </motion.div>
     </div>
