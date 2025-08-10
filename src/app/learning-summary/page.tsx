@@ -209,7 +209,7 @@ export default function LearningSummary() {
           className="mt-12 text-center"
         >
           <p className="text-[#64FFDA] font-mono text-lg">
-            "学而时习之，不亦说乎" - 持续学习，持续成长
+            学而时习之，不亦说乎 - 持续学习，持续成长
           </p>
         </motion.div>
       </motion.div>
